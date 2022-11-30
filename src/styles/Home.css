@@ -1,0 +1,40 @@
+#home {
+  background: url("../assets/sunnyday.png") no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: calc(100vh);
+}
+
+#home ul {
+  list-style-type: none;
+  margin: 0;
+  display: inline-flex;
+}
+
+#home ul li {
+  padding: 60px;
+  color: white;
+  font-size: 40px;
+}
+
+#home ul li:first-child img {
+  width: 70px;
+  margin-right: 50px;
+}
+
+#wallet_connect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#wallet_connect button {
+  width: 250px;
+  font-size: 30px;
+  color: white;
+  background-color: rgb(189, 138, 45);
+  border-radius: 8px;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 300px;
+}
