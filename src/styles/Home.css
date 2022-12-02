@@ -1,23 +1,85 @@
 #home {
-  background: url("../assets/sunnyday.png") no-repeat center center;
+  background: url("../assets/home_background.png") no-repeat center center;
   background-size: cover;
   width: 100%;
-  height: calc(100vh);
 }
 
-#home ul {
-  list-style-type: none;
-  margin: 0;
-  display: inline-flex;
-}
-
-#home ul li {
-  padding: 60px;
+.header {
+  display: flex;
   color: white;
-  font-size: 40px;
+  align-items: center;
+  justify-content: end;
+  font-size: 2rem;
+  gap: 50px;
+  font-family: cursive;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 1rem;
+  height: 5rem;
+  position: fixed;
+  width: 100%;
 }
 
-#home ul li:first-child img {
+.point {
+  cursor: pointer;
+}
+
+.active1 {
+  color: green;
+}
+
+.header > div:first-child {
+  position: absolute;
+  left: 3rem;
+  top: 1rem;
+  cursor: pointer;
+}
+
+.header div:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 23px;
+}
+
+.header div:nth-child(3) button {
+  margin-right: 2rem;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  color: white;
+  font-family: cursive;
+  padding-top: 8rem;
+  font-size: 5rem;
+}
+
+.body div:first-child > img {
+  width: 30rem !important;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  color: white;
+  font-family: cursive;
+  margin-top: 8rem;
+  font-size: 5rem;
+  padding-bottom: 8rem;
+}
+
+.about_content {
+  font-size: 1rem;
+}
+
+.about div:nth-child(2) > img {
+  width: 35rem !important;
+  height: 30rem;
+}
+
+#home div div:first-child img {
   width: 70px;
   margin-right: 50px;
 }
@@ -36,6 +98,18 @@
   border-radius: 8px;
   border: none;
   padding: 10px 20px;
-  margin-top: 300px;
+  margin-top: 1rem;
   cursor: pointer;
+}
+
+.wallet_btn {
+  width: 184px;
+  font-size: 27px;
+  color: white;
+  background-color: rgb(189, 138, 45);
+  border-radius: 8px;
+  border: none;
+  padding: 7px 6px;
+  cursor: pointer;
+  font-family: cursive;
 }
